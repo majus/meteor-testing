@@ -1,6 +1,6 @@
 Package.describe({
   name: 'majus:testing',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Common API used for an automated testing in Meteor',
   git: 'https://github.com/majus/meteor-testing.git',
   documentation: 'README.md',

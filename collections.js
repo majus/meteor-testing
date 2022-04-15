@@ -10,6 +10,7 @@ export const StubCollections = {
       if (!this.collections.includes(collection)) {
         const replacement = new LocalCollection(collection._name);
         this.sandbox.stub(collection, '_collection').value(replacement);
+        this.sandbox.stub(collection, '_connection').value();
         this.collections.push(collection);
       }
     }
