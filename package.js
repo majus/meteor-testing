@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Npm.depends({
-  '@majus/testing': '0.0.1',
+  '@majus/testing': '0.0.3',
 });
 
 Package.onUse(function(api) {
